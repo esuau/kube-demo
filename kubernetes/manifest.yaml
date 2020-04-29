@@ -17,6 +17,7 @@ spec:
       containers:
       - name: demo-app
         image: esuau/hello-react:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 
